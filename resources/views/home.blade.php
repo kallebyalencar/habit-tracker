@@ -1,5 +1,4 @@
-
-<h1>Welcome to My App</h1>
+<h1>Bem-vindo ao Meu App</h1>
 <p>Olá, {{$name}}!</p>
 <p>Seus hábitos são:</p>
 <ul>
@@ -8,5 +7,4 @@
             {{$habit}}
         </li>
     @endforeach
-
 </ul>
