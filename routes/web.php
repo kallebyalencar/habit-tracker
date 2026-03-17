@@ -1,7 +1,12 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
+use Illuminate\Container\Attributes\Auth;
 
-
+// SITE
 Route::get('/', [SiteController::class, 'index']);
+
+// Login
+Route::get('/login', [LoginController::class, 'index']); 
